@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8175C8741F9532A6003822BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175C8731F9532A6003822BA /* AppDelegate.swift */; };
+		8175C8761F9532A6003822BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175C8751F9532A6003822BA /* ViewController.swift */; };
+		8175C8791F9532A6003822BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8175C8771F9532A6003822BA /* Main.storyboard */; };
+		8175C87B1F9532A6003822BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8175C87A1F9532A6003822BA /* Assets.xcassets */; };
+		8175C87E1F9532A6003822BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8175C87C1F9532A6003822BA /* LaunchScreen.storyboard */; };
+		8175C8891F9532A6003822BA /* _CardMontyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175C8881F9532A6003822BA /* _CardMontyTests.swift */; };
+		8175C8941F9532A6003822BA /* _CardMontyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175C8931F9532A6003822BA /* _CardMontyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8175C8851F9532A6003822BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8175C8681F9532A6003822BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8175C86F1F9532A6003822BA;
+			remoteInfo = 3CardMonty;
+		};
+		8175C8901F9532A6003822BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8175C8681F9532A6003822BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8175C86F1F9532A6003822BA;
+			remoteInfo = 3CardMonty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8175C8701F9532A6003822BA /* 3CardMonty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3CardMonty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8175C8731F9532A6003822BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8175C8751F9532A6003822BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8175C8781F9532A6003822BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8175C87A1F9532A6003822BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8175C87D1F9532A6003822BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8175C87F1F9532A6003822BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8175C8841F9532A6003822BA /* 3CardMontyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3CardMontyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8175C8881F9532A6003822BA /* _CardMontyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _CardMontyTests.swift; sourceTree = "<group>"; };
+		8175C88A1F9532A6003822BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8175C88F1F9532A6003822BA /* 3CardMontyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3CardMontyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8175C8931F9532A6003822BA /* _CardMontyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _CardMontyUITests.swift; sourceTree = "<group>"; };
+		8175C8951F9532A6003822BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8175C86D1F9532A6003822BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175C8811F9532A6003822BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175C88C1F9532A6003822BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8175C8671F9532A6003822BA = {
+			isa = PBXGroup;
+			children = (
+				8175C8721F9532A6003822BA /* 3CardMonty */,
+				8175C8871F9532A6003822BA /* 3CardMontyTests */,
+				8175C8921F9532A6003822BA /* 3CardMontyUITests */,
+				8175C8711F9532A6003822BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8175C8711F9532A6003822BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8175C8701F9532A6003822BA /* 3CardMonty.app */,
+				8175C8841F9532A6003822BA /* 3CardMontyTests.xctest */,
+				8175C88F1F9532A6003822BA /* 3CardMontyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8175C8721F9532A6003822BA /* 3CardMonty */ = {
+			isa = PBXGroup;
+			children = (
+				8175C8A11F9532B9003822BA /* Support Stuff */,
+				8175C8751F9532A6003822BA /* ViewController.swift */,
+				8175C8771F9532A6003822BA /* Main.storyboard */,
+				8175C87A1F9532A6003822BA /* Assets.xcassets */,
+				8175C87F1F9532A6003822BA /* Info.plist */,
+			);
+			path = 3CardMonty;
+			sourceTree = "<group>";
+		};
+		8175C8871F9532A6003822BA /* 3CardMontyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8175C8881F9532A6003822BA /* _CardMontyTests.swift */,
+				8175C88A1F9532A6003822BA /* Info.plist */,
+			);
+			path = 3CardMontyTests;
+			sourceTree = "<group>";
+		};
+		8175C8921F9532A6003822BA /* 3CardMontyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8175C8931F9532A6003822BA /* _CardMontyUITests.swift */,
+				8175C8951F9532A6003822BA /* Info.plist */,
+			);
+			path = 3CardMontyUITests;
+			sourceTree = "<group>";
+		};
+		8175C8A11F9532B9003822BA /* Support Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				8175C8731F9532A6003822BA /* AppDelegate.swift */,
+				8175C87C1F9532A6003822BA /* LaunchScreen.storyboard */,
+			);
+			path = "Support Stuff";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8175C86F1F9532A6003822BA /* 3CardMonty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8175C8981F9532A6003822BA /* Build configuration list for PBXNativeTarget "3CardMonty" */;
+			buildPhases = (
+				8175C86C1F9532A6003822BA /* Sources */,
+				8175C86D1F9532A6003822BA /* Frameworks */,
+				8175C86E1F9532A6003822BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3CardMonty;
+			productName = 3CardMonty;
+			productReference = 8175C8701F9532A6003822BA /* 3CardMonty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8175C8831F9532A6003822BA /* 3CardMontyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8175C89B1F9532A6003822BA /* Build configuration list for PBXNativeTarget "3CardMontyTests" */;
+			buildPhases = (
+				8175C8801F9532A6003822BA /* Sources */,
+				8175C8811F9532A6003822BA /* Frameworks */,
+				8175C8821F9532A6003822BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8175C8861F9532A6003822BA /* PBXTargetDependency */,
+			);
+			name = 3CardMontyTests;
+			productName = 3CardMontyTests;
+			productReference = 8175C8841F9532A6003822BA /* 3CardMontyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8175C88E1F9532A6003822BA /* 3CardMontyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8175C89E1F9532A6003822BA /* Build configuration list for PBXNativeTarget "3CardMontyUITests" */;
+			buildPhases = (
+				8175C88B1F9532A6003822BA /* Sources */,
+				8175C88C1F9532A6003822BA /* Frameworks */,
+				8175C88D1F9532A6003822BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8175C8911F9532A6003822BA /* PBXTargetDependency */,
+			);
+			name = 3CardMontyUITests;
+			productName = 3CardMontyUITests;
+			productReference = 8175C88F1F9532A6003822BA /* 3CardMontyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8175C8681F9532A6003822BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = C4Q;
+				TargetAttributes = {
+					8175C86F1F9532A6003822BA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8175C8831F9532A6003822BA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8175C86F1F9532A6003822BA;
+					};
+					8175C88E1F9532A6003822BA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8175C86F1F9532A6003822BA;
+					};
+				};
+			};
+			buildConfigurationList = 8175C86B1F9532A6003822BA /* Build configuration list for PBXProject "3CardMonty" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8175C8671F9532A6003822BA;
+			productRefGroup = 8175C8711F9532A6003822BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8175C86F1F9532A6003822BA /* 3CardMonty */,
+				8175C8831F9532A6003822BA /* 3CardMontyTests */,
+				8175C88E1F9532A6003822BA /* 3CardMontyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8175C86E1F9532A6003822BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8175C87E1F9532A6003822BA /* LaunchScreen.storyboard in Resources */,
+				8175C87B1F9532A6003822BA /* Assets.xcassets in Resources */,
+				8175C8791F9532A6003822BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175C8821F9532A6003822BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175C88D1F9532A6003822BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8175C86C1F9532A6003822BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8175C8761F9532A6003822BA /* ViewController.swift in Sources */,
+				8175C8741F9532A6003822BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175C8801F9532A6003822BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8175C8891F9532A6003822BA /* _CardMontyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8175C88B1F9532A6003822BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8175C8941F9532A6003822BA /* _CardMontyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8175C8861F9532A6003822BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8175C86F1F9532A6003822BA /* 3CardMonty */;
+			targetProxy = 8175C8851F9532A6003822BA /* PBXContainerItemProxy */;
+		};
+		8175C8911F9532A6003822BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8175C86F1F9532A6003822BA /* 3CardMonty */;
+			targetProxy = 8175C8901F9532A6003822BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8175C8771F9532A6003822BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8175C8781F9532A6003822BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8175C87C1F9532A6003822BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8175C87D1F9532A6003822BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8175C8961F9532A6003822BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8175C8971F9532A6003822BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8175C8991F9532A6003822BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3CardMonty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.-CardMonty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8175C89A1F9532A6003822BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3CardMonty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.-CardMonty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8175C89C1F9532A6003822BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3CardMontyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.-CardMontyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3CardMonty.app/3CardMonty";
+			};
+			name = Debug;
+		};
+		8175C89D1F9532A6003822BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3CardMontyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.-CardMontyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3CardMonty.app/3CardMonty";
+			};
+			name = Release;
+		};
+		8175C89F1F9532A6003822BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3CardMontyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.-CardMontyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3CardMonty;
+			};
+			name = Debug;
+		};
+		8175C8A01F9532A6003822BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3CardMontyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.-CardMontyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3CardMonty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8175C86B1F9532A6003822BA /* Build configuration list for PBXProject "3CardMonty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8175C8961F9532A6003822BA /* Debug */,
+				8175C8971F9532A6003822BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8175C8981F9532A6003822BA /* Build configuration list for PBXNativeTarget "3CardMonty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8175C8991F9532A6003822BA /* Debug */,
+				8175C89A1F9532A6003822BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8175C89B1F9532A6003822BA /* Build configuration list for PBXNativeTarget "3CardMontyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8175C89C1F9532A6003822BA /* Debug */,
+				8175C89D1F9532A6003822BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8175C89E1F9532A6003822BA /* Build configuration list for PBXNativeTarget "3CardMontyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8175C89F1F9532A6003822BA /* Debug */,
+				8175C8A01F9532A6003822BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8175C8681F9532A6003822BA /* Project object */;
+}
